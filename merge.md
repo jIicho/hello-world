@@ -18,7 +18,7 @@
      => 이 상황에서 병합을 하면 master 브랜치가 가리키는 커밋이 version2의 커밋으로 이동한다. (Fast-forward)
      version2 브랜치 작업이 끝난 후,
      헤드 브랜치로 다시 체크아웃하고, merge한다.
-     <img src = "./images/git4-2.png">
+     ![](https://cdn.inflearn.com/wp-content/uploads/git4-2.png)
 
 2. 가지가 생겨난 경우 ( 여러가지 기능을 동시에 개발하는 경우 )
 
