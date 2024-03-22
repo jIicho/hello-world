@@ -12,7 +12,8 @@
 
    - 합치려는 브랜치가 헤드 브랜치로부터 시작된다.
    - 새로운 브랜치로 체크아웃한 후 커밋.
-     <img src = "./images/git4-1.png">
+     ![image](https://github.com/jIicho/hello-world/assets/164034269/343802d6-1f95-46a6-8356-ba4f869fa2d4)
+
    - 그 사이 헤드 브랜치에는 전혀 변경사항이 없을때, 충돌 없이 병합이 가능하다.
      => 이 상황에서 병합을 하면 master 브랜치가 가리키는 커밋이 version2의 커밋으로 이동한다. (Fast-forward)
      version2 브랜치 작업이 끝난 후,
