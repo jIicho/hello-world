@@ -12,20 +12,20 @@
 
    - 합치려는 브랜치가 헤드 브랜치로부터 시작된다.
    - 새로운 브랜치로 체크아웃한 후 커밋.
-     <img src = "images/git4-1.png">
+     <img src = "./images/git4-1.png">
    - 그 사이 헤드 브랜치에는 전혀 변경사항이 없을때, 충돌 없이 병합이 가능하다.
      => 이 상황에서 병합을 하면 master 브랜치가 가리키는 커밋이 version2의 커밋으로 이동한다. (Fast-forward)
      version2 브랜치 작업이 끝난 후,
      헤드 브랜치로 다시 체크아웃하고, merge한다.
-     <img src = "images/git4-2.png">
+     <img src = "./images/git4-2.png">
 
 2. 가지가 생겨난 경우 ( 여러가지 기능을 동시에 개발하는 경우 )
 
    - 과거의 커밋으로부터 브랜치를 생성해서 작업을 한 경우
    - 새로운 브랜치 작업 이후에 헤드 브랜치에 다른 새 커밋이 있는 경우
-     <img src = "images/git4-3.png">
+     <img src = "./images/git4-3.png">
    - 여러 브랜치를 동시에 작업하면서 병합을 시도할 경우
-     <img src = "images/git4-4.png">
+     <img src = "./images/git4-4.png">
 
    => 이 작업을 하고난 후 충돌이 발생할 수 있다.
    그 이유는 보통 여러 브랜치에서 동시에 변경한 파일이 있기 때문이다.
