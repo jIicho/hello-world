@@ -24,9 +24,10 @@
 
    - 과거의 커밋으로부터 브랜치를 생성해서 작업을 한 경우
    - 새로운 브랜치 작업 이후에 헤드 브랜치에 다른 새 커밋이 있는 경우
-     <img src = "./images/git4-3.png">
+     ![](https://cdn.inflearn.com/wp-content/uploads/git4-3.png)
+
    - 여러 브랜치를 동시에 작업하면서 병합을 시도할 경우
-     <img src = "./images/git4-4.png">
+     ![](https://cdn.inflearn.com/wp-content/uploads/git4-4.png)
 
    => 이 작업을 하고난 후 충돌이 발생할 수 있다.
    그 이유는 보통 여러 브랜치에서 동시에 변경한 파일이 있기 때문이다.
